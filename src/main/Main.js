@@ -1,11 +1,20 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+
+import Home from 'home/Home';
+import Hobbies from 'hobbies/Hobbies';
+import Contacts from 'contacts/Contacts';
 
 const Main = () => (
   <main>
-    <Container>
-      <Row />
-    </Container>
+    <section>
+      <Home />
+    </section>
+    <section>
+      <Hobbies />
+    </section>
+    <section>
+      <Contacts />
+    </section>
   </main>
 );
 

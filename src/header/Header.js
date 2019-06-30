@@ -7,7 +7,7 @@ import logo from 'img/turtle.png';
 import './Header.css';
 
 const Header = () => (
-  <Navbar bg="light" expand="lg">
+  <Navbar bg="light" expand="lg" fixed="top">
     <Container>
       <Navbar.Brand>
         <Image
