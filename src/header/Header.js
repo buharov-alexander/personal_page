@@ -15,7 +15,7 @@ const Header = () => (
           roundedCircle
           width="40"
           height="40"
-          className="logo"
+          className="b-header__logo"
         />
         Alexander Bukharov
       </Navbar.Brand>

@@ -6,7 +6,7 @@ import {
 import 'section/Section.css';
 
 const Hobbies = () => (
-  <Container className="section" fluid>
+  <Container className="b-section" fluid>
   </Container>
 );
 

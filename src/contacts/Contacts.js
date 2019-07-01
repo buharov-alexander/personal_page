@@ -6,7 +6,7 @@ import {
 import 'section/Section.css';
 
 const Contacts = () => (
-  <Container className="section section_green" fluid>
+  <Container className="b-section b-section_color-green" fluid>
   </Container>
 );
 

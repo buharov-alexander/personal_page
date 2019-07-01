@@ -1,5 +1,7 @@
-@import "./Section_green.css";
-
-.section {
+.b-section {
   height: 100vh;
+}
+
+.b-section_color-green {
+  background-color: 	#9bf09d;
 }
