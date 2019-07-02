@@ -3,7 +3,7 @@ import {
   Container,
 } from 'react-bootstrap';
 
-import 'section/Section.css';
+import 'section/Section.scss';
 
 const Hobbies = () => (
   <Container className="b-section" fluid>

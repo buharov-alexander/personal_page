@@ -4,10 +4,15 @@ import {
 } from 'react-bootstrap';
 
 import logo from 'img/turtle.png';
-import './Header.css';
+import './Header.scss';
 
 const Header = () => (
-  <Navbar bg="light" expand="lg" fixed="top">
+  <Navbar
+    className="b-header"
+    bg="light"
+    expand="lg"
+    fixed="top"
+  >
     <Container>
       <Navbar.Brand>
         <Image

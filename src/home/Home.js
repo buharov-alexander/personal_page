@@ -3,7 +3,7 @@ import {
   Container,
 } from 'react-bootstrap';
 
-import 'section/Section.css';
+import 'section/Section.scss';
 
 const Home = () => (
   <Container className="b-section b-section_color-green" fluid>
