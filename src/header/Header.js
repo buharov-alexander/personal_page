@@ -9,7 +9,8 @@ import './Header.scss';
 const Header = () => (
   <Navbar
     className="b-header"
-    bg="light"
+    bg="dark"
+    variant="dark"
     expand="lg"
     fixed="top"
   >
