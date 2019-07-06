@@ -1,0 +1,43 @@
+.b-home {
+  background-image: url("./img/banner.jpg");
+  background-attachment: fixed;
+  background-position: 40%;
+  background-size: auto 100%;
+}
+
+.b-home__container {
+  height: 100%;
+}
+
+.b-home__row {
+  height: 100%;
+}
+
+.b-home__text-block {
+
+  padding-left: 20px;
+
+  &:after {
+    width: 5px;
+    left: 1px;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    background: $primary;
+    content: "";
+  }
+}
+
+.b-home__text {
+  &.b-home__text_last {
+    margin-bottom: 0;
+  }
+}
+
+@media(min-width: 992px ) {
+  .b-home__text {
+    &.b-home__text_h1 {
+      font-size: 3rem;
+    }
+  }
+}

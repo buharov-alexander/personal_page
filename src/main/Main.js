@@ -6,15 +6,9 @@ import Contacts from 'contacts/Contacts';
 
 const Main = () => (
   <main>
-    <section>
-      <Home />
-    </section>
-    <section>
-      <Hobbies />
-    </section>
-    <section>
-      <Contacts />
-    </section>
+    <Home />
+    <Hobbies />
+    <Contacts />
   </main>
 );
 

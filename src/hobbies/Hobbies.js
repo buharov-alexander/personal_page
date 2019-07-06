@@ -3,11 +3,11 @@ import {
   Container,
 } from 'react-bootstrap';
 
-import 'section/Section.scss';
-
 const Hobbies = () => (
-  <Container className="b-section" fluid>
-  </Container>
+  <section>
+    <Container className="b-section">
+    </Container>
+  </section>
 );
 
 export default Hobbies;

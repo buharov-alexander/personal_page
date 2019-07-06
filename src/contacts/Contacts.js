@@ -3,11 +3,11 @@ import {
   Container,
 } from 'react-bootstrap';
 
-import 'section/Section.scss';
-
 const Contacts = () => (
-  <Container className="b-section b-section_color-green" fluid>
-  </Container>
+  <section>
+    <Container className="b-section">
+    </Container>
+  </section>
 );
 
 export default Contacts;

@@ -1,13 +1,10 @@
-$headings-font-family:Lato;
-
-$primary:#1a936f;
-$secondary:#c6dabf;
-$success:#88d498;
-$danger:#703B3B;
-$warning:#fec100;
-$light:#f3e9d2;
-$dark:#114b5f;
-$spacer:1rem;
-$border-width:1px;
+$primary:#2f3231;
+$secondary: #ddc34b;
+$light: #FDFBF7;
 
 @import "node_modules/bootstrap/scss/bootstrap";
+
+@import "section/Section.scss";
+@import "header/Header.scss";
+@import "home/Home.scss";
+@import "header/Header.scss";

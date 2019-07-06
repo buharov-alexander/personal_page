@@ -4,12 +4,11 @@ import {
 } from 'react-bootstrap';
 
 import logo from 'img/turtle.png';
-import './Header.scss';
 
 const Header = () => (
   <Navbar
     className="b-header"
-    bg="dark"
+    bg="primary"
     variant="dark"
     expand="lg"
     fixed="top"
