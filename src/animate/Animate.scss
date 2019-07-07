@@ -1,0 +1,17 @@
+.b-animate-slide {
+  opacity: 0;
+  transform: translate(-100px, 0);
+  animation: slideAnimate 2s forwards;
+
+}
+
+@keyframes slideAnimate {
+  60% {
+    transform: translate(20px, 0);
+  }
+
+  100% {
+    transform: translate(0);
+    opacity: 1;
+  }
+}
