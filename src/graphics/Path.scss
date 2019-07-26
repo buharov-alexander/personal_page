@@ -1,0 +1,13 @@
+.b-path__circle {
+  color: $primary;
+}
+
+.b-path__line {
+  stroke: $secondary;
+  stroke-width: 1px;
+}
+
+.b-path__line-stroke {
+  stroke: $primary;
+  stroke-width: .5px;
+}
