@@ -18,25 +18,22 @@ const renderHeader = () => (
 
 const renderCards = () => (
   <Row>
-    <Col>
+    <Col xs={12} sm={4}>
       <BiographyCard
         header="School"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text="Kurgan"
       />
     </Col>
-    <Col>
+    <Col xs={12} sm={4}>
       <BiographyCard
         header="University"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text="Novosibirsk State University"
       />
     </Col>
-    <Col>
+    <Col xs={12} sm={4}>
       <BiographyCard
         header="Job"
-        text="Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        text="Xored"
       />
     </Col>
   </Row>
@@ -48,14 +45,12 @@ const Biography = () => (
       <Row className="b-biography__row align-items-center">
         <Col>
           {renderHeader()}
-          <Row>
-            <Col lg={12}>
+          <Row className="d-none d-sm-block">
+            <Col>
               <Path />
             </Col>
-            <Col>
-              {renderCards()}
-            </Col>
           </Row>
+          {renderCards()}
         </Col>
       </Row>
     </Container>
