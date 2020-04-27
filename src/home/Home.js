@@ -10,8 +10,8 @@ const Home = () => (
         <Col className="b-home__text-block">
           <div className="b-animate-slide">
             <h3 className="b-home__text b-home__text_h3">Hello! My name is</h3>
-            <h1 className="b-home__text b-home__text_h1">Bukharov Alexander</h1>
-            <h5 className="b-home__text b-home__text_h5 b-home__text_last">Welcome to my personal page!</h5>
+            <h1 className="b-home__text b-home__text_h1 b-home__text_last">Bukharov Alexander</h1>
+            <h5 className="b-home__text b-home__text_h5">Welcome to my personal page!</h5>
           </div>
         </Col>
       </Row>

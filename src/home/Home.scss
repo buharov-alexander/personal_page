@@ -16,7 +16,7 @@
 .b-home__text-block {
 
   padding-left: 20px;
-  color: $primary;
+
 
   &:after {
     width: 5px;
@@ -30,6 +30,9 @@
 }
 
 .b-home__text {
+  color: $primary;
+  font-weight: bold;
+
   &.b-home__text_last {
     margin-bottom: 0;
   }

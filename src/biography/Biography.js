@@ -10,6 +10,7 @@ const renderHeader = () => (
   <Row>
     <Col>
       <div className="b-biography__header">
+        <span className="b-bigletter">B</span>
         <h1>Biography</h1>
       </div>
     </Col>
