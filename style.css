@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.section {
+  text-align: center;
+}
+
+/* https://www.happyhues.co/palettes/5 */
+
+.diagonal-block-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.diagonal-block-container:before {
+  content: "";
+  position: absolute;
+  right: 0;
+  left: 0;
+  background-color: #f2f7f5;
+  transform: skewY(-11deg);
+  animation: increase 0.5s linear forwards;
+}
+
+.diagonal-block {
+  color: #00473e;
+  font-size: 4em;
+  z-index: 1;
+}
+
+@keyframes increase {
+  0% {
+    height: 0vh;
+  }
+  100% {
+    height: 50vh;
+  }
+}
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+#menu li {
+  display: inline-block;
+  margin: 20px;
+}
+
+#menu li a {
+  text-decoration: none;
+  color: #f2f7f5;
+  font-size: 1.2em;
+}
+
+#menu li.active a {
+  color: #fffffe;
+  font-weight: bold
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#contacts {
+  margin: 0;
+  padding: 0;
+}
+
+#contacts li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+#contacts .icon {
+  height: 40px;
+  width: 40px;
+  fill: #f2f7f5;
+}
