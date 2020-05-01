@@ -81,6 +81,7 @@ body {
 #contacts li {
   display: inline-block;
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 #contacts .icon {
