@@ -1,0 +1,12 @@
+$primary-background: #f2f7f5;
+$primary-headline: #00473e;
+$primary-paragraph: #475d5b;
+
+$secondary-background: #00473e;
+$secondary-headline: #fffffe;
+$secondary-paragraph: #f2f7f5;
+$secondary-icon: $secondary-paragraph;
+
+.secondary.background {
+  background-color: $secondary-background;
+}

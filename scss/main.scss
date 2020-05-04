@@ -2,3 +2,18 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@import "menu.scss";
+@import "contacts.scss";
+
+.right {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+}
+
+.xskew {
+  transform: skewX(8deg) translateX(10%)
+}
