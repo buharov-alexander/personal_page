@@ -7,6 +7,20 @@ $secondary-headline: #fffffe;
 $secondary-paragraph: #f2f7f5;
 $secondary-icon: $secondary-paragraph;
 
+$button: #faae2b;
+$button-highlight: #c57f07;
+$button-text: #00473e;
+
+button {
+  background-color: $button;
+  color: $button-text;
+  font-weight: bold;
+
+  &:hover {
+    background-color: $button-highlight;
+  }
+}
+
 .secondary.background {
   background-color: $secondary-background;
 }
