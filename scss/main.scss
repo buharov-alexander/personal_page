@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+@import "menu.scss";
+@import "contacts.scss";
+
 body {
   margin: 0;
   padding: 0;
+  font-family: 'Nunito', sans-serif;
 }
-
-@import "menu.scss";
-@import "contacts.scss";
 
 .right {
   position: fixed;
@@ -15,5 +17,5 @@ body {
 }
 
 .xskew {
-  transform: skewX(8deg) translateX(10%)
+  transform: skewX(8deg) translateX(25%);
 }
