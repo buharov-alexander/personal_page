@@ -1,0 +1,15 @@
+@import "common.scss";
+
+@media (max-width: 425px) {
+  body {
+    font-size: 0.8em;
+  }
+
+  .none-mobile {
+    display: none;
+  }
+
+  #contacts .icon {
+    fill: $primary-icon;
+  }
+}
