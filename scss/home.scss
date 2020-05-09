@@ -18,6 +18,8 @@
   background-repeat: no-repeat;
   height: 800px;
   width: 800px;
+  opacity: 0;
+  animation: 1s scale 1s forwards;
 }
 
 .contact-me {

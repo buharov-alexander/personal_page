@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+@import "loader.scss";
+@import "animation.scss";
 @import "menu.scss";
 @import "contacts.scss";
 @import "home.scss";
@@ -24,21 +26,6 @@ button {
 
 .xskew {
   transform: skewX(8deg) translateX(25%);
-}
-
-.scale {
-  animation: 1s scale;
-}
-
-@keyframes scale {
-  from {
-    opacity: 0;
-    transform: scale(1.2, 1.2);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1, 1);
-  }
 }
 
 .flex {

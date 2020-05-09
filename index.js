@@ -6,3 +6,8 @@ const myFullpage = new fullpage('#fullpage', {
   navigationPosition: 'left',
   navigationTooltips: ['Home', 'Biography', 'Skills']
 });
+
+window.addEventListener('load', function() {
+  const loader = document.querySelector('#loader');
+  loader.className += ' loader-hidden';
+});
