@@ -22,11 +22,20 @@ button {
   right: 0;
   top: 0;
   bottom: 0;
-  width: 50%;
+  width: 60%;
+  transition: transform 1s;
   z-index: -1;
 
   &.section-1 {
-    transform: skewX(8deg) translateX(10%);
+    transform: skewX(8deg) translateX(25%);
+  }
+
+  &.section-2 {
+    transform: skewX(0deg) translateY(25%) rotate(45deg);
+  }
+
+  &.section-3 {
+    transform: skewX(0deg) translateX(50%) rotate(90deg);
   }
 }
 
