@@ -1,0 +1,35 @@
+@import "common.scss";
+
+#biography-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card-line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  margin: 100px;
+  padding: 20px;
+  background-color: $primary-background;
+  width: 25%;
+  border: $border 3px solid;
+  border-radius: 10px;
+
+  h2 {
+    text-align: center;
+  }
+
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: $highlight;
+  }
+}
