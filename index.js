@@ -20,3 +20,19 @@ window.addEventListener('load', function () {
   const homeImage = document.getElementById('home-image');
   homeImage.classList.add('scale');
 });
+
+const selectableCards = document.querySelectorAll('.selectable-card');
+const biographyImages = document.querySelectorAll('.biography-image');
+selectableCards.forEach(card => card.addEventListener('mouseover', function () {
+  selectableCards.forEach(c => c.classList.remove('active'));
+  card.classList.add('active');
+  
+  const activeImageId = card.getAttribute('imageId');
+  biographyImages.forEach(img => {
+    if (img.id === activeImageId) {
+      img.classList.remove('hidden');
+    } else {
+      img.classList.add('hidden');
+    }
+  });  
+}));

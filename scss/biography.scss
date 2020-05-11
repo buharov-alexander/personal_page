@@ -32,4 +32,28 @@
     font-weight: bold;
     color: $highlight;
   }
+
+  &.with-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none;
+  }
+
+  &.active {
+    transition: transform 0.5s;
+    transform: scale(1.2, 1.2);
+  }
+}
+
+.biography-image {
+  position: absolute;
+  width: 100%;
+  transition: opacity 0.5s;
+
+  &.hidden {
+    opacity: 0;
+  }
 }
