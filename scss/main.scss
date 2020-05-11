@@ -36,10 +36,12 @@ button {
   }
 
   &.section-3 {
-    transform: skewX(0deg) translateX(50%) rotate(90deg);
+    transform: skewX(0deg) translateX(50%) rotate(0deg);
   }
 }
 
 .flex {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
