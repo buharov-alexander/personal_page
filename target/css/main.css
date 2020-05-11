@@ -1,0 +1,215 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap");
+#loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 99;
+  justify-content: center;
+  align-items: center; }
+  #loader.loader-hidden {
+    animation: 0.5s fadeOut forwards; }
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden; } }
+
+@keyframes scale {
+  from {
+    opacity: 0;
+    transform: scale(1.2, 1.2); }
+  to {
+    opacity: 1;
+    transform: scale(1, 1); } }
+
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 100%;
+  padding: 0;
+  margin: 0; }
+  #menu li {
+    display: inline-block;
+    margin: 20px; }
+    #menu li a {
+      text-decoration: none;
+      color: #00473e;
+      font-size: 1.2em; }
+    #menu li.active a {
+      color: #475d5b;
+      font-weight: bold; }
+
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+#contacts {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 2; }
+  #contacts li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px; }
+  #contacts .icon {
+    height: 40px;
+    width: 40px;
+    fill: #f2f7f5; }
+
+#hello {
+  margin: 100px;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  #hello h1, #hello h2, #hello p {
+    margin: 0; }
+
+#home-image {
+  margin-left: 100px;
+  z-index: 2;
+  background-image: url(../../resources/home.svg);
+  background-repeat: no-repeat;
+  height: 800px;
+  width: 800px;
+  opacity: 0; }
+  #home-image.scale {
+    animation: 1s scale forwards; }
+
+.contact-me {
+  border: none;
+  border-radius: 10px;
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+  font-size: 0.6em; }
+
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+#biography-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.card-line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center; }
+
+.card {
+  margin: 100px;
+  padding: 20px;
+  background-color: #f2f7f5;
+  width: 25%;
+  border: #00473e 3px solid;
+  border-radius: 10px; }
+  .card h2 {
+    text-align: center; }
+  .card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #faae2b; }
+  .card.with-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none; }
+  .card.active {
+    transition: transform 0.5s;
+    transform: scale(1.2, 1.2); }
+
+.biography-image {
+  position: absolute;
+  width: 100%;
+  transition: opacity 0.5s; }
+  .biography-image.hidden {
+    opacity: 0; }
+
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+@media (max-width: 425px) {
+  body {
+    font-size: 0.8em; }
+  .none-mobile {
+    display: none !important; }
+  #contacts .icon {
+    fill: #475d5b; }
+  .card-line {
+    flex-wrap: wrap; }
+  .card {
+    margin: 5px 10px 5px 50px;
+    padding: 10px;
+    width: 100%; }
+    .card h2 {
+      margin: 5px 0; } }
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #f2f7f5; }
+
+button {
+  font-family: inherit; }
+
+#backend-element {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 60%;
+  transition: transform 1s;
+  z-index: -1; }
+  #backend-element.section-1 {
+    transform: skewX(8deg) translateX(25%); }
+  #backend-element.section-2 {
+    transform: skewX(0deg) translateY(25%) rotate(45deg); }
+  #backend-element.section-3 {
+    transform: skewX(0deg) translateX(50%) rotate(90deg); }
+
+.flex {
+  display: flex; }

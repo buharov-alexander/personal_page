@@ -1,0 +1,25 @@
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+@media (max-width: 425px) {
+  body {
+    font-size: 0.8em; }
+  .none-mobile {
+    display: none !important; }
+  #contacts .icon {
+    fill: #475d5b; }
+  .card-line {
+    flex-wrap: wrap; }
+  .card {
+    margin: 5px 10px 5px 50px;
+    padding: 10px;
+    width: 100%; }
+    .card h2 {
+      margin: 5px 0; } }

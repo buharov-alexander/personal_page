@@ -1,0 +1,25 @@
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+#contacts {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  z-index: 2; }
+  #contacts li {
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 10px; }
+  #contacts .icon {
+    height: 40px;
+    width: 40px;
+    fill: #f2f7f5; }

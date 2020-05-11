@@ -1,0 +1,9 @@
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }

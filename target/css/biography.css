@@ -1,0 +1,52 @@
+button {
+  background-color: #faae2b;
+  color: #00473e;
+  font-weight: bold; }
+  button:hover {
+    background-color: #c57f07; }
+
+.secondary.background {
+  background-color: #00473e; }
+
+#biography-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; }
+
+.card-line {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center; }
+
+.card {
+  margin: 100px;
+  padding: 20px;
+  background-color: #f2f7f5;
+  width: 25%;
+  border: #00473e 3px solid;
+  border-radius: 10px; }
+  .card h2 {
+    text-align: center; }
+  .card a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #faae2b; }
+  .card.with-image {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background: none; }
+  .card.active {
+    transition: transform 0.5s;
+    transform: scale(1.2, 1.2); }
+
+.biography-image {
+  position: absolute;
+  width: 100%;
+  transition: opacity 0.5s; }
+  .biography-image.hidden {
+    opacity: 0; }
