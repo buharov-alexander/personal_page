@@ -6,10 +6,24 @@
   }
 
   .none-mobile {
-    display: none;
+    display: none!important;
   }
 
   #contacts .icon {
     fill: $primary-icon;
+  }
+
+  .card-line {
+    flex-wrap: wrap;
+  }
+
+  .card {
+    margin: 5px 10px 5px 50px;
+    padding: 10px;
+    width: 100%;
+
+    h2 {
+      margin: 5px 0;
+    }
   }
 }
