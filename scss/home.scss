@@ -14,10 +14,7 @@
 #home-image {
   margin-left: 100px;
   z-index: 2;
-  background-image: url(../../resources/home.svg);
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 800px;
+  width: 40%;
   opacity: 0;
 
   &.scale {
