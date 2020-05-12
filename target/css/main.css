@@ -90,10 +90,7 @@ button {
 #home-image {
   margin-left: 100px;
   z-index: 2;
-  background-image: url(../../resources/home.svg);
-  background-repeat: no-repeat;
-  height: 800px;
-  width: 800px;
+  width: 40%;
   opacity: 0; }
   #home-image.scale {
     animation: 1s scale forwards; }
@@ -129,7 +126,7 @@ button {
   justify-content: center; }
 
 .card {
-  margin: 100px;
+  margin: 50px 100px;
   padding: 20px;
   background-color: #f2f7f5;
   width: 25%;
@@ -169,7 +166,7 @@ button {
 .secondary.background {
   background-color: #00473e; }
 
-@media (max-width: 425px) {
+@media (max-width: 768px) {
   body {
     font-size: 0.8em; }
   .none-mobile {
