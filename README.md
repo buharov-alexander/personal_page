@@ -1,3 +1,5 @@
 ## Personal page
 
-Work is in progress
+Personal page with short information about me.
+
+https://buharov-alexander.github.io/personal_page/
